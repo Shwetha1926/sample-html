@@ -1,0 +1,38 @@
+calender-container{
+    width: 500;
+    box-shadow: blue;
+    background-color: #fff;
+    padding: 20px;
+}
+heading{
+    text-align: center;
+    color: rgb(181, 17, 17);
+    font-size: 30px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+calender-table{
+    width: 100%;
+    border-collapse: collapse;
+}
+.calendar-table thead th {
+    background-color: #800040; /* Approximate dark purple/maroon */
+    color: white;
+    padding: 10px 5px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 16px;
+    border: 1px solid #000
+}
+.calendar-table tbody td {
+    padding: 15px 5px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    /* Use a light gray border for internal lines for subtlety */
+    border: 1px solid #000; 
+    height: 50px;
+}
+.empty-cell{
+    color: transparent;
+}
