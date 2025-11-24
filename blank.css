@@ -1,0 +1,101 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background: #0b1a33;
+  color: white;
+}
+
+.container {
+  display: flex;
+  padding: 40px;
+  gap: 20px;
+}
+
+.left {
+  width: 45%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 25px;
+  position: relative;
+}
+
+.left h1 {
+  font-size: 50px;
+  font-weight: 700;
+}
+
+.left p {
+  line-height: 22px;
+}
+
+.btn {
+  background: white;
+  color: #0b1a33;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.bottom-img img {
+  width: 100%;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+.right {
+  width: 55%;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.top-images {
+  display: flex;
+  gap: 20px;
+}
+
+.top-images img {
+  width: 50%;
+  border-radius: 80px 80px 0 0;
+}
+
+.numbers {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.line {
+  width: 60px;
+  height: 3px;
+  background: white;
+  margin-bottom: 10px;
+}
+
+.num-item {
+  display: flex;
+  gap: 15px;
+}
+
+.num-item h2 {
+  font-size: 25px;
+  font-weight: 700;
+}
+
+.gallery {
+  display: flex;
+  justify-content: space-between;
+}
+
+.gallery img {
+  width: 32%;
+  border-radius: 10px;
+}
